@@ -25,4 +25,4 @@ logging.basicConfig(
 
 logger = logging.getLogger("cnnClassifierLogger")
 
-logger.info("Welcome to my custom logger")
+# logger.info("Welcome to my custom logger")
