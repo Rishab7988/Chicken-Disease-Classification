@@ -13,7 +13,7 @@ import base64
 
 
 """
-The dtpye of read_yaml is ConfigBox so that we can easily access the elements in the yaml file. 
+The dtpye of read_yaml is ConfigBox so that we can easily access the elements in the yaml file.
 The ensure_annotations ensures that the data_type provided in the argument of the functions is strictly followed and throws an error if proper dtype is not followed.
 
 for ref: research->trials.ipynb

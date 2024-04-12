@@ -1,0 +1,10 @@
+artifacts_root: artifacts
+# a root folder is created inside which data_ingestion folder is present
+
+
+# this is the syntax for the key:value pair where the value is in the form of a list
+data_ingestion:
+  root_dir: artifacts/data_ingestion
+  source_URL: https://github.com/Rishab7988/Datasets/raw/main/Chicken-fecal-images.rar
+  local_data_file: artifacts/data_ingestion/data.zip
+  unzip_dir: artifacts/data_ingestion
